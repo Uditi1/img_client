@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ /* Satoshi Regular 400 */
+@font-face {
+    font-family: "Satoshi";
+    src: url('/font/Satoshi_Complete/Fonts/OTF/Satoshi-Regular.otf');
+}
+
+ /* Satoshi Regular 500 */
+@font-face {
+    font-family: "SatoshiMedium";
+    src: url('/font/Satoshi_Complete/Fonts/OTF/Satoshi-Medium.otf');
+}
+
+ /* Satoshi bold 700 */
+@font-face {
+    font-family: "SatoshiBold";
+    src: url('/font/Satoshi_Complete/Fonts/OTF/Satoshi-Bold.otf');
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
